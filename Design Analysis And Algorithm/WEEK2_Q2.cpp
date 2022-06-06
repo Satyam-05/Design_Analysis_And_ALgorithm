@@ -5,7 +5,7 @@ int main()
     int n,t;
     cout<<"enter the no of test cases:";
     cin>>t;
-    cout<<"enter the size of array:";
+    cout<<"enter the size of array :";
     cin>>n;
     int arr[n];
     while(t!=0)
