@@ -25,7 +25,7 @@ int main(){
             cout<<arr[i]<<" ";
         }
             cout<<"Comparision : "<<c;
-            cout<<"Swaps : "<<s;
+            cout<<"Swaps: "<<s;
 
     t--;
     }
