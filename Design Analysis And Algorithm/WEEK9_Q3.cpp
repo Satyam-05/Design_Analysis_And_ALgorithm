@@ -5,6 +5,7 @@ bool compare(pair<int,int>a,pair<int,int>b)
         double i1=a.first/a.second;
         double i2=b.first/b.second;
         return i1>i2;
+    
     }
 int main()
 {
