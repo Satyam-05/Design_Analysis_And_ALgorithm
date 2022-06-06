@@ -21,7 +21,6 @@ int main(){
     }
 
     distance[0]=0;
-
     int c=0;
     while(c<n-1){
         int min=INT_MAX;
