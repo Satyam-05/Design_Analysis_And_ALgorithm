@@ -36,7 +36,7 @@ void search(int arr[],int up,int lw,int key)
     else
       {
           cout<<"key found"<<endl;
-          cout<<"Comparisons: "<<c<<endl;
+          cout<<"Comparisons : "<<c<<endl;
       }
 
 }
