@@ -8,6 +8,7 @@ void make(int v)
     parent[v]=v;
     size[v]=1;
 }
+
 int find(int v)
 {
     if(parent[v]==v)
