@@ -1,24 +1,25 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int t;
-    printf("enter the no of test cases:");
-    scanf("%d", &t);
+    cout<<"enter the no of test cases:";
+    cin>>t;
 
     while(t)
     {
         int n;
-        printf("enter the size of array:");
-        scanf("%d", &n);
-        printf("enter the elements of array:");
+        cout<<"enter the size of array:";
+        cin>>n;
+        cout<<"enter the elements of array:";
         int arr[n];
         for(int i=0; i<n; i++)
-            scanf("%d", &arr[i]);
+            cin>>arr[i];
 
 
         int key;
-        printf("enter the key:");
-        scanf("%d", &key);
+        cout<<"enter the key:";
+        cin<<key;
 
         int occur1=0,occur2=0,l=0, r=n;
 
@@ -42,7 +43,7 @@ int main()
             }
         }
 
-        printf("%d occurs %d times", key,(occur2-occur1)-1);
+        cout<<key<<" occurs "<< (occur2-occur1)-1 << " times");
 
     t--;
     }
