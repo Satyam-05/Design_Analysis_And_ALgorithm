@@ -28,7 +28,6 @@ int main(){
 
         else if(arr1[ptr1]<arr2[ptr2])
             ptr1++;
-
         else
             ptr2++;
       }
