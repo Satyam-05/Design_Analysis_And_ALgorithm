@@ -34,7 +34,7 @@ int main()
      if(c==-1)
         cout<<" key not found";
      else
-        cout<<"key found";
+        cout<<"key  found";
     return 0;
 }
 
