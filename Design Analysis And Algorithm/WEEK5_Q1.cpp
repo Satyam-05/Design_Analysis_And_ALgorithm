@@ -25,7 +25,7 @@ int main()
         }
     }
     if(max>1)
-    cout << (char)index << " " << max << endl;
+    cout << (char)index << " "<< max << endl;
      else
       cout<<"NO DUPLICATES"<<endl;
      }
