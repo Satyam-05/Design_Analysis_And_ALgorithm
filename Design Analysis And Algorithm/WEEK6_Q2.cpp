@@ -1,8 +1,8 @@
 #include<iostream>
 #include<vector>
 #include<queue>
-
 using namespace std; 
+
 bool bipartite(int node , vector<vector<int>>&adj , vector<int>&color){
      queue<int>q;
      q.push(node);
