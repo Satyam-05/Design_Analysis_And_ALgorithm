@@ -6,7 +6,7 @@ void findDuplicate(int A[],int n);
 int main()
 {
  int t;
- cout<<"enter the test cases:"<<endl;
+ cout<<"enter the test  cases:"<<endl;
  cin<<t;
  while(t--)
  {
