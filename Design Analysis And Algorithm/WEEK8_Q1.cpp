@@ -4,6 +4,7 @@ int main(){
     int n;
     cout<<"Enter number of nodes : ";
     cin>>n;
+    
     int graph[20][20];
     cout<<"Enter matrix: \n";
     for(int i=0;i<n;i++){
