@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int N=1e5+3;
+
 int parent[N],size[N];
 
 void make(int v)
