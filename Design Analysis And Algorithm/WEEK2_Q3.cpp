@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n,t,c=0,key;
-    cout<<"enter the no of test cases:";
+    cout<<"enter the no of test cases: ";
     cin>>t;
     cout<<"enter the size of array:";
     cin>>n;
