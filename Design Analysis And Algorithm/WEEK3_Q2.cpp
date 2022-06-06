@@ -29,7 +29,7 @@ int main()
             swap(&arr[i], &arr[min]);
         }
 
-         cout<<"\nComparisons:"<<comp<<endl;
+         cout<<"Comparisons:"<<comp<<endl;
          cout<<"Shifting:"<<s<<endl;
         for(int i=0;i<n;i++)
            cout<<arr[i]<<" ";
