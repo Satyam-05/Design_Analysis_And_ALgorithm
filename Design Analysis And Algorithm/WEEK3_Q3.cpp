@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void mergeSort(int A[],int l, int r);
+void mergeSort(int A[], int l, int r);
 void merge(int A[],int l,int m,int r);
 void findDuplicate(int A[],int n);
 int main()
