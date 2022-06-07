@@ -2,7 +2,7 @@
 using namespace std;
 
 #define max 100
-void search( int arr[],int up,int lw,int key);
+void search( int arr[], int up,int lw,int key);
 int c=0;
 int main()
 {
