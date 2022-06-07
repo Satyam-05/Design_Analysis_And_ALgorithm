@@ -5,7 +5,7 @@ int main()
     int t,m=0,n,c,i;
     cout<<"enter the number:";
     cin>>t;
-    while(m<=t){
+    while(m<= t){
         c=0;
         cout<<"enter the size of array:";
         cin>>n;
