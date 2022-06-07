@@ -48,6 +48,6 @@ int main(){
     }
 
     for(int i=1;i<n;i++){
-        cout<<parent[i]<<"-"<<i<<"  \n";
+        cout<<parent[i] <<"-"<<i<<"  \n";
     }
 }
