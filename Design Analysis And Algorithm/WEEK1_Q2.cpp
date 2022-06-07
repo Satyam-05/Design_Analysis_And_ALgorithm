@@ -6,7 +6,7 @@ void search( int arr[],int up,int lw,int key);
 int c=0;
 int main()
 {
-    int arr[max];
+    int  arr[max];
     int key,n;
     cout<<"enter the size of array:"<<endl;
     cin>>n;
