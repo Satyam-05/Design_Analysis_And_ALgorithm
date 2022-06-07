@@ -4,7 +4,7 @@
 
 using namespace std; 
 
-bool bipartite(int node , vector<vector<int>>&adj , vector<int>&color){
+bool bipartite (int node , vector<vector<int>>&adj , vector<int>&color){
      queue<int>q;
      q.push(node);
      color[node]=1;
