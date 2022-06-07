@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int N=150;
-const int INF=1e9;
+const int INF = 1e9;
 
 int dist[N][N];
 int main()
